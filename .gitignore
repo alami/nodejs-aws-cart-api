@@ -1,6 +1,8 @@
+.env
 # compiled output
 /dist
 /node_modules
+/alami-lamda-integration-SQL/node_modules
 
 # Logs
 logs
