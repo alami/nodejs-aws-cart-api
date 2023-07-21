@@ -28,13 +28,15 @@
     Create a new environment using the eb create command. An environment name must be short but not less then four signs (e.g develop, test, prod, etc). Use the --cname option {yours_github_account_login}-cart-api-{environment_name} so that Elastic Beanstalk will use it to create a proper domain name. Use the --single option to not use any Load Balancer for this environment.
 
     Deploy Cart Service with Elastic Beanstalk
-http://alami-dev.eba-mip85a3i.us-east-1.elasticbeanstalk.com/
+EB API: http://alami-dev.eba-mip85a3i.us-east-1.elasticbeanstalk.com/
 
     Investigate AWS Elastic Beanstalk service in the AWS Console.
     Walk through EC2 resources that were created by Elastic Beanstalk
     Update the app and deploy changes using the eb deploy command.
 
     Update FE app
+
+FE Cloudfront https://d1kybbg0rzdlcc.cloudfront.net/
 
     Pull the latest version of the app from repo
     Replace Cart Service placeholder in src/constants/apiPaths.ts using a Cart Service API URL you get after successful deployment.
@@ -47,6 +49,7 @@ http://alami-dev.eba-mip85a3i.us-east-1.elasticbeanstalk.com/
     Commit all your work to separate branch (e.g. task-9 from the latest master) in your own repository.
     Create a pull request to the master branch.
     Submit link to the pull request to Crosscheck page in RS App.
+
 
 Evaluation criteria (70 points for covering all criteria)
 
